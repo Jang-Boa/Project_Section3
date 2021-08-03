@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!--base 자바스크립트-->
+    <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+    <!--아이콘 스크립트-->
+    <script> 
+    crossorigin="anonymous"></script>
+    <title> 오늘부터 다이어트, 오다 </title>
+    
+</head>
+
+<body>
+    {% block nav %}
+    <!-- 네비게이션바 -->
+    <nav class="navbar">
+        <div class="navbar_logo">
+            <a href="">오늘부터 다이어트</a>
+        </div>
+        <ul class="navbar_menu">
+            <li><a href="/"> Home</a></li>
+            <li><a href="/exercise"> Today's Exercise </a></li>
+            <li><a href="/community"> Community </a></li>
+        </ul>
+        <a href="#" class="navbar_toggleBtn"><i class="fas fa-bars"></i></a>
+    </nav>
+    {% endblock %}
+    {% block body %}
+    {% endblock %}
+
+</body>
+</html>
