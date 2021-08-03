@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <span></span>
+    <section class="randomrecobox">
+        <span class="randomreco" id="reconame">오늘은 무슨 운동을 할까요?</span>
+        <div>
+            <h3> 운동 부위를 선택해주세요. </h3> <br>
+                <a href="https://www.youtube.com/embed/54tTYO-vU2E" target='iframe1'><button class="exercise_area"> 팔뚝살 운동 </button></a>
+                <a href="https://www.youtube.com/embed/cfioLE83by0" target='iframe2'><button class="exercise_area"> 등 운동 </button></a>
+                <a href="https://www.youtube.com/embed/8UNMmdc0Lzw" target='iframe3'><button class="exercise_area"> 다리 운동 </button></a>
+                <a href="https://www.youtube.com/embed/sVQqBDBZhmI" target='iframe4'><button class="exercise_area"> 복근 운동 </button></a>
+                <a href="https://www.youtube.com/embed/wZdrFoMKTwo" target='iframe5'><button class="exercise_area"> 가슴 운동 </button></a>
+                <a href="https://www.youtube.com/embed/RpAH7ts--eY" target='iframe6'><button class="exercise_area"> 스트레칭 </button></a>
+                <a href="https://www.youtube.com/embed/1GruyO_L6Vo" target='iframe7'><button class="exercise_area"> 폼롤러 </button></a>
+                <a href="https://www.youtube.com/embed/BildyA91Wdk" target='iframe8'><button class="exercise_area"> 전신 유산소 </button></a>
+        </div>
+        <div>
+            <iframe src="https://www.youtube.com/embed/54tTYO-vU2E" name="iframe1" title="팔뚝살 운동" frameborder="0"></iframe>
+            <iframe src="https://www.youtube.com/embed/cfioLE83by0" name="iframe2" title="등 운동" frameborder="0"></iframe>
+            <iframe src="https://www.youtube.com/embed/8UNMmdc0Lzw" name='iframe3' title="다리 운동" frameborder="0"></iframe>
+            <iframe src="https://www.youtube.com/embed/sVQqBDBZhmI" name='iframe4' title="복근 운동" frameborder="0"></iframe>
+            <iframe src="https://www.youtube.com/embed/wZdrFoMKTwo" name='iframe5' title="가슴 운동" frameborder="0"></iframe>
+            <iframe src="https://www.youtube.com/embed/RpAH7ts--eY" name='iframe6' title="스트레칭" frameborder="0"></iframe>
+            <iframe src="https://www.youtube.com/embed/1GruyO_L6Vo" name='iframe7' title="폼롤러" frameborder="0"></iframe>
+            <iframe src="https://www.youtube.com/embed/BildyA91Wdk" name='iframe8' title="전신 유산소" frameborder="0"></iframe>
+        </div>
+        <!-- 좋아요, 싫어요 버튼 -->
+        <div class="feeling_div">
+            <div class="button-container like-container">
+                <button class="feeling_a">
+                    <a href="#">
+                        <i class="fa fa-heart-o"> Like</i>    
+                    </a>
+                </button>
+            </div>
+            <div class="button-container dislike-container">
+                <button class='feeling_a'>
+                    <a href="#">
+                        <i class="fa fa-heart"> Dislike</i>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </section>
+        
+        
+{% endblock %}

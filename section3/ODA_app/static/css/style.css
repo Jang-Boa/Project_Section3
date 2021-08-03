@@ -1,0 +1,144 @@
+/* 배경 이미지 및 폰트 설정 */
+html {
+    background: #7BA87B;  /* fallback for old browsers */
+    
+    font-family: 'Lobster', cursive;
+    font-family: 'Comic Sans MS', sans-serif;
+    }
+
+html::-webkit-scrollbar {
+    width: 1;
+    }
+
+body {
+    margin: 0;
+    }
+
+a {
+    text-decoration: none;
+    color: #1E3269;
+    }
+
+/* 네비바 설정 */
+.navbar {
+    width: 100%;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #719E71;
+    margin: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width:100%;
+    list-style-type: none;
+    }
+
+.navbar_logo {
+    font-size: 30px;
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: 200px;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    padding: 0 8px;
+    text-align: center;
+    }
+
+.navbar_menu {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0%;
+    float: left;
+    text-align: center;
+    }
+
+.navbar_menu i {
+    color: #1E3269;
+    }
+.navbar_menu li {
+    padding: 8px 30px;
+    }
+
+.navbar_menu li:hover {
+    background-color: #ffffff1e;
+    border-radius: 4px;
+    }
+
+.navbar_icons {
+    display: flex;
+    list-style-type: none;
+    padding: 0 24px;
+    margin: 0%;
+}
+
+.navbar_icons li {
+    padding: 8px 12px;
+    }
+
+.navbar_toggleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    }
+/* main page */
+
+
+.randomrecobox {
+    font-size: 10px;
+    font-weight: 300;
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    background-position: center;
+    text-align: center;
+    left: 10%;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #42275a;
+    z-index: 1;
+    }
+
+
+.randomreco {
+    padding: 1rem;
+    color: #006400;
+    }
+
+#reconame {
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: #2e1d3d;
+    }
+
+
+/* 좋아요 싫어요 버튼 */
+
+.feeling_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.button-container {
+    margin-left: 20px;
+}
+
+.feeling_a {
+    background-color: #CD2E57;
+    border: 2px solid #CD2E57;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #679467;
+} 
+
+.exercise_area{
+    background-color: #fff;
+    border: 2px solid #679467;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #679467;
+
+}

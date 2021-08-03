@@ -1,0 +1,1 @@
+web: gunicorn --workers=2 'ODA_app:create_app()'
